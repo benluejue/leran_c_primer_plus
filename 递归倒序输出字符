@@ -1,0 +1,23 @@
+用递归倒序输出字符初始版本
+#include<stdio.h>
+void Reversing(int n);
+
+int main(){
+ int num;
+
+ scanf("%d",&num);
+ Reversing(num);
+
+ return 0;
+}
+
+void Reversing(int n)
+{
+    char ch;
+    int i = 0;
+    scanf("%c",&ch);
+    if(n>0)
+       Reversing(n-1);
+    printf("%c",ch);
+    //putchar(ch);
+}
