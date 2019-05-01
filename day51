@@ -6,4 +6,27 @@
 书上p264 问题解决
 1.需要把功能函数的原型声明到.h里面
 2.需要把功能函数的头文件放在.h里
+
+switch需要多多练习
+case前门不要乱加东西
+int code;
+	//printf("%d",menu());
+
+	while ((code=menu()) != quit)
+	{
+		//printf("you press\n");
+		switch (code)
+		{
+		case 1:printf("you pase on 1"); 
+			break;
+		case 2:printf("you pase on 2"); 
+			break;
+		case 3:printf("you pase on 3");
+			break;
+		default:printf("   ");
+			break;
+		}
+	}
+例如这个例子里，
+
 多多练习
