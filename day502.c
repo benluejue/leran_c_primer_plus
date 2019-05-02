@@ -4,3 +4,7 @@
 
 1发现学校教材p138有visual studio.h使用方法
 2，继续记住 I++是先使用后加
+
+
+今日疑问句
+printf(" %p, %c",  "are", *"douyuer");
