@@ -1,0 +1,11 @@
+今天快速读了这本书
+今后会写csdn分辨static，extern，auto,等等变量
+今天老师的书p234看一下
+同时学了new，delete，malloc，free.
+int *p;
+p=new int(10)
+delet p
+delet[]p
+
+int *p=(int *)malloc(n*sizeof(int))
+free(p)
