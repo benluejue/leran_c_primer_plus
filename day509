@@ -1,3 +1,7 @@
 学不进去了
 今日学习结构体
 改变计划，c++primer 和算法数据结构一块学
+inline int doub(int x)
+{
+    return x*2;
+};
