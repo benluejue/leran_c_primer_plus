@@ -1,0 +1,23 @@
+复习了迭代
+还有十以内的进制
+void  aline(int sum,int d);
+int main()
+{
+    int A,B,D;
+
+    scanf("%d%d%d",&A,&B,&D);
+    if(A+B==0)
+        printf("%d",0);
+    else
+        aline(A+B,D);
+};
+void aline(int sum,int d)
+{
+    int dy;
+    if(sum>0)
+    {
+       dy=sum%d;
+       aline(sum/d,d);
+       printf("%d",dy);
+    }
+}
