@@ -1,0 +1,11 @@
+about vector
+类似于数组但是优于数组
+https://www.cnblogs.com/aminxu/p/4686332.htmlint
+vector<int>v(k)
+创建一个长度为k的整数型
+
+about sort
+//sort（start，end，排序方法）
+sort(v.begin(), v.end(), cmp);
+bool compare(int a, int b)
+{return a>b}
